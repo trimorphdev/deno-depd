@@ -5,7 +5,7 @@ Depd is inspired by a [Node.js module named Depd](https://www.npmjs.com/package/
 
 ## Usage
 ```ts
-import depd from 'https://deno.land/x/depd@1.0.0';
+import depd from 'https://deno.land/x/depd@1.0.0/mod.ts';
 
 // Create the initial deprecator:
 const deprecated = depd('package-name');
@@ -22,7 +22,7 @@ func();
 
 **If you want to throw an error instead of displaying a warning:**
 ```ts
-import depd from 'https://deno.land/x/depd@1.0.0';
+import depd from 'https://deno.land/x/depd@1.0.0/mod.ts';
 
 // Create the initial deprecator:
 const deprecated = depd('package-name', {
